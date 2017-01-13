@@ -6,4 +6,5 @@ namespace :admin do
   resources :jobs
 end
 root 'jobs#index'
+resources :welcome
 end
