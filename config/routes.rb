@@ -14,6 +14,6 @@ namespace :admin do
   end
 end
 
-root 'jobs#index'
+root 'welcome#index'
 resources :welcome
 end
