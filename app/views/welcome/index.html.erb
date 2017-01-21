@@ -1,47 +1,106 @@
-<div class="jumbotron">
-    <h1 class="title">24k真金！</h1>
-    <p class="slogan">
-    <br>我“招”你了，有“本事”你来呀！
+<!-- Add this css File in head tag-->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
-    <!--<br>
-     凭借自己的努力和天份也会变 Winner
-   </p>-->
-    <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-  </div>
-  <section id="company">
-  <div class = "container-fluid">
-    <div class="row">
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fbx9bcamgnj303k03kq2p.jpg" alt="search" class = "img-thhumbnail">
-          <div class="caption">
-            <h3>南宁地王大厦</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww1.sinaimg.cn/large/006tKfTcgy1fbx979gwrtj303o03odfl.jpg" alt="bid" class = "img-thhumbnail">
-          <div class="caption">
-            <h3>xiaoguaishou0809@gmail.com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fbx94e8om3j303o03o742.jpg" alt="heart" class = "img-thhumbnail">
-          <div class="caption">
-            <h3>400-500-6666</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--<select class="form-control">
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select> -->
+
+ <!--
+ If you want to change #bootstrap-touch-slider id then you have to change Carousel-indicators and Carousel-Control  #bootstrap-touch-slider slide as well
+ Slide effect: slide, fade
+ Text Align: slide_style_center, slide_style_left, slide_style_right
+ Add Text Animation: https://daneden.github.io/animate.css/
+ -->
+
+
+ <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
+
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+         <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+         <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+         <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+     </ol>
+
+     <!-- Wrapper For Slides -->
+     <div class="carousel-inner" role="listbox">
+
+         <!-- Third Slide -->
+         <div class="item active">
+
+             <!-- Slide Background -->
+             <img src="https://blog.picjumbo.com/wp-content/uploads/sites/3/HNCK9016.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+             <div class="bs-slider-overlay"></div>
+
+             <div class="container">
+                 <div class="row">
+                     <!-- Slide Text Layer -->
+                     <div class="slide-text slide_style_left">
+                         <h2 data-animation="animated zoomInRight">你能做到的决不可能只是今天这样子</h2>
+                         <p data-animation="animated fadeInLeft">弱者坐等机会</p>
+                         <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
+                         <!--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+                         <a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated fadeInRight">select two</a>-->
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- End of Slide -->
+
+         <!-- Second Slide -->
+         <div class="item">
+
+             <!-- Slide Background -->
+             <img src="https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30" alt="Bootstrap Touch Slider"  class="slide-image"/>
+             <div class="bs-slider-overlay"></div>
+             <!-- Slide Text Layer -->
+             <div class="slide-text slide_style_center">
+                 <h1 data-animation="animated flipInX">走出去看到的才是世界</h1>
+                 <p data-animation="animated lightSpeedIn">抉择必定要放在努力的前面。</p>
+                 <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
+                 <!--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+                 <a href="http://bootstrapthemes.co/" target="_blank"  class="btn btn-primary" data-animation="animated fadeInDown">select two</a>-->
+             </div>
+         </div>
+         <!-- End of Slide -->
+
+         <!-- Third Slide -->
+         <div class="item">
+
+             <!-- Slide Background -->
+             <img src="https://blog.picjumbo.com/wp-content/uploads/sites/3/P1000733.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+             <div class="bs-slider-overlay"></div>
+             <!-- Slide Text Layer -->
+             <div class="slide-text slide_style_right">
+                 <h1 data-animation="animated zoomInLeft">百句空言，不如一個行為。</h1>
+                 <p data-animation="animated fadeInRight">机会不是等待，而是把握。</p>
+                 <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
+                 <!--<a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+                 <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a>-->
+             </div>
+         </div>
+         <!-- End of Slide -->
+
+
+     </div><!-- End of Wrapper For Slides -->
+
+     <!-- Left Control -->
+     <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+         <span class="fa fa-angle-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+     </a>
+
+     <!-- Right Control -->
+     <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+         <span class="fa fa-angle-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+     </a>
+
+ </div>
+
+ <!-- End  bootstrap-touch-slider Slider
+
+
+
+
+   <div style="text-align: center;margin-top: 150px; margin-bottom:100px"><h3>Check this in <a href="http://bootsnipp.com/fullscreen/Padax"target="_blank"> Full Screen Preview </a> And Drag the Slider ;)</h3> / Fade slide Also <a href=""target="_blank">  Available here </a></div>
+   <div style="text-align: center;margin-top: 150px; margin-bottom:100px"> | <a href="http://bootstrapthemes.co/item/bootstrap-carousel-touch-slider-with-text-animation/"target="_blank"> Snippet By Bootstrapthemes.co </a> |</div>
+ -->
