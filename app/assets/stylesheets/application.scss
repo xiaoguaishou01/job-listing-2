@@ -73,17 +73,16 @@
   transition: 0.5s;
 }
 
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-
-}
-
 .navbar-default {
-    background-color: #CFD8DC;//背景颜色
-    border-color: #CFD8DC;//边框色
+    background-color: #F7F7F7;//背景颜色
+    border-color: #F7F7F7;//边框色
     margin-bottom: 0;//底部 margin 不撑开距离
 }
+.search {
+  display: block;
+  margin: 0 auto;
+      }
+
 /*Footer*/
 footer {
     background-color: #f7f7f7;
