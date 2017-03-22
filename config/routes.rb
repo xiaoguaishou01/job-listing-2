@@ -18,5 +18,10 @@ namespace :admin do
 end
 
 root 'welcome#index'
-resources :welcome
+resources :welcome do
+    collection do
+      get :test
+    end
+  end
+  
 end
