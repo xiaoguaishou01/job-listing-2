@@ -4,6 +4,9 @@
 
 <%= f.input :title %>
 <%= f.input :description %>
+<%= f.input :sort do %>
+<%= f.select :sort, [['程序员'],['技术'],['产品经理'],['运营'],['设计'],['市场营销'],['职能'],['金融']] %>
+<% end %>
 <%= f.input :wage_lower_bound, :label => "薪资下限" %>
 <%= f.input :wage_upper_bound, :label => "薪资上限" %>
 <%= f.input :contact_email %>

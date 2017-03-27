@@ -258,3 +258,106 @@ footer .fa {
 	font-size:0.9em;
 	font-weight:normal;
 }
+
+.container-fluid{
+  background: #F2F2F5
+}
+
+.bs-slider{
+  margin-bottom: 100px
+}
+
+.advantage-img{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 34px;
+}
+
+.container{
+  //height: 00px;
+  margin-top: 40px;
+  text-align: center;
+}
+.container .title {
+    position: absolute;
+    bottom: -66px;
+    left: 7%;
+    width: 86%;
+    background: rgba(0,0,0,0.7);
+    font-size: 16px;
+    //padding: 6px 250px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel{
+  height: 700px;
+}
+
+.carousel .item{
+  height: 700px;
+}
+
+.carousel img{
+  width: 100%;
+}
+
+.img-thumbnail{
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0px;
+  background-color: #F2F2F5;
+}
+
+.img-circle{
+  width: 90px;
+  height: 90px;
+}
+
+.Carousel-content{
+  font-size: 50px;
+  color: 	#FFFFFF;
+  text-align: center;
+}
+
+.modal-content-a {
+  position: relative;
+  background-color: #DCDCDC;
+  //background: rgba(0,0,0,0.7);
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.rowa{
+//  margin-top: 60px;
+}
+
+.jobs-index{
+  margin-top: 60px;
+}
+
+.new-footer{
+  background-color: #F2F2F5;
+}
+
+.pull-right{
+  //padding-top: 20px
+}
+
+body {
+  padding-top: 50px;/*有顶部固定导航条时设置*/
+}
