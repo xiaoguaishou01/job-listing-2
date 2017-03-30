@@ -286,12 +286,12 @@ footer .fa {
 }
 .container .title {
     position: absolute;
-    bottom: -66px;
-    left: 7%;
-    width: 86%;
+    bottom: -80px;
+    left: 0%;
+    width: 100%;
     background: rgba(0,0,0,0.7);
     font-size: 16px;
-    //padding: 6px 250px;
+    padding: 4px;
     color: #fff;
     text-align: center;
 }
@@ -360,4 +360,72 @@ footer .fa {
 
 body {
   padding-top: 50px;/*有顶部固定导航条时设置*/
+}
+.pagination{
+  background-color: white;
+  padding: 10px;
+}
+//以下代码是实现图片悬浮
+.he_border1 {
+	background:#fe7253;
+  //width: 250px;
+  height: 220px;
+  border: 0px;
+  background-color: #F2F2F5;
+	//padding: 0;
+	margin-top: 10px;
+  margin-bottom: 10px;
+	border:0px solid #000; //边框线
+	position:relative;
+	box-sizing:border-box;
+	-webkit-transition:all .4s ease-in-out;
+	-moz-transition:all .4s ease-in-out;
+	-o-transition:all .4s ease-in-out;
+	-ms-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out;
+	overflow:hidden
+}
+.he_border1 .he_border1_img {
+	display:block;
+	width:100%;
+	padding:0;
+	margin:0;
+  height: 250px;
+	position:relative;
+	-webkit-transition:all .4s ease-in-out;
+	-moz-transition:all .4s ease-in-out;
+	-o-transition:all .4s ease-in-out;
+	-ms-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out;
+	opacity:1;
+	overflow:hidden
+}
+.he_border1:hover .he_border1_img {
+	position:absolute;
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
+	opacity:.6
+}
+
+.he_border1 a {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	-webkit-transition:all .4s ease-in-out;
+	-moz-transition:all .4s ease-in-out;
+	-o-transition:all .4s ease-in-out;
+	-ms-transition:all .4s ease-in-out;
+	transition:all .4s ease-in-out;
+	overflow:hidden;
+	z-index:1000
+}
+
+.show{
+  margin-top: 20px;
+
 }
